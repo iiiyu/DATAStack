@@ -13,7 +13,8 @@ Pod::Spec.new do |s|
   }
   s.author = { "Elvis Nunez" => "elvisnunez@me.com" }
   s.social_media_url = "http://twitter.com/3lvis"
-  s.platform = :ios, '7.0'
+  s.ios.deployment_target = '7.0'
+  s.osx.deployment_target = '10.9'
   s.source = {
     :git => 'https://github.com/3lvis/DATAStack.git',
     :tag => s.version.to_s
